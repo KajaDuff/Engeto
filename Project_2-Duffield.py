@@ -19,7 +19,7 @@ def greet_user():
 def generate_number():
     numbers = range(10)
     random_number = random.sample(numbers, k=4)
-    print(random_number)
+    #print(random_number) #ukaze spravnu odpoved
     return random_number
 
 
